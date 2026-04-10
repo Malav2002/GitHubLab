@@ -251,9 +251,25 @@ The GitHub Actions workflow (`.github/workflows/ci_cd.yml`) runs on every push o
 | Train model | Runs `train_and_save_model.py`, captures version |
 | Build & push | Builds image, pushes with version tag + `latest` |
 
+### Workflow Runs
+
+![GitHub Actions workflow runs](assets/actions-runs.png)
+
+### Pipeline Summary
+
+![CI/CD pipeline run summary](assets/actions-summary.png)
+
+### Job Steps
+
+![build-train-deploy job steps](assets/actions-steps.png)
+
 ---
 
 ## Model Artifacts
+
+### GCS Bucket
+
+![GCS bucket with versioned model artifacts](assets/gcs-bucket.png)
 
 ### GCS Layout
 
